@@ -1,9 +1,10 @@
 import React from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 
 import './Login.css'
 
 const Login = () => {
-
+    const navigate = useNavigate()
 
     return (
         <div className='auth-form-container'>
@@ -32,8 +33,8 @@ const Login = () => {
                     </form>
 
                     <p className='redirect'>
-                        New to Tech Geeks?
-                        <span>Create new Account</span>
+                        New to DAYS INN?
+                        <span onClick={() => navigate('/register')}>Create new Account</span>
                     </p>
                     <div className="horizontal-divider">
                         <div className="line-left"></div>
