@@ -3,8 +3,9 @@ import './Contact.css'
 
 const Contact = () => {
     return (
-        <div>
-            <h2>Contact: mahmodulshahin665@gmail.com</h2>
+        <div className='contact'>
+            <p>Phone: 018********</p>
+            <p>Email: contact.daysinn@example.com</p>
         </div>
     );
 };
