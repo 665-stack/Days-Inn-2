@@ -6,7 +6,7 @@ const Header = () => {
 
 
     return (
-        <header className='flex justify-center md:justify-between items-center	 bg-neutral-900 sm:px-12 md:px-20 px-2 py-5'>
+        <header className='flex justify-center md:justify-between items-center	 bg-black sm:px-12 md:px-20 px-2 py-5'>
 
 
             <Link className='uppercase text-slate-50 text-xl hidden md:block' to='/'>Days Inn</Link>
